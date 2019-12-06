@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+.clr {
+    clear: both
+}
+
+
+/* basic css end */
+
+
+/* main css start */
+
+.full {
+    width: 100%;
+}
+
+.main {
+    width: 1170px;
+    margin: auto;
+}
+
+.header-full {
+    padding: 20px 0;
+    background-color: #a75a5a
+}
+
+.header-main {
+    display: flex
+}
+
+.logo {
+    width: 40%;
+}
+
+.menu {
+    width: 70%;
+}
+
+.main-menu {
+    text-align: right
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    font-size: 17px;
+    font-family: cursive;
+    text-transform: capitalize;
+    padding: 15px;
+    display: circle;
+    border: 2px solid #fff;
+    transition: all 0.5s linear;
+}
+
+.main-menu ul li a:hover {
+    border-color: darkblue
+}
+
+
+/* banner part css */
+
+.banner-full {
+    padding: 200px 0;
+    background: url(../images/bd.jpg) left top no-repeat;
+    background-size: cover
+}
+
+.banner-content {
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    float: right
+}
+
+.banner-content h1 {
+    font-family: cursive;
+    padding: 20px 0
+}
+
+.banner-content p {
+    margin-bottom: 20px;
+}
+
+.banner-content button {
+    border-style: none;
+    padding: 20px 30px;
+    background-color: #e63a7a;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all 0.5s linear;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    cursor: pointer
+}
+
+.banner-content button:hover {
+    color: #e63a7a;
+    background-color: transparent;
+    border-color: #e63a7a;
+}
+
+
+
+
+.content-full {
+    padding: 50px 0
+}
+
+.cont-main {
+    display: flex;
+}
+
+.col {
+    width: 33.3%;
+    padding: 10px 15px;
+}
+
+.tabbu {
+    border: 1px solid #000;
+    padding-bottom: 20px;
+    text-align: center;
+    border-image-width:50%;
+}
+.tabbu button{
+        border-style: none;
+    padding: 20px 30px;
+    background-color: #e63a7a;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all 0.5s linear;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    cursor: pointer
+}
+.tabbu button:hover{
+     color: #e63a7a;
+    background-color: transparent;
+    border-color: #e63a7a;
+
+}
+
+.footer-full{
+    background-color: #444;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center
+}
+
+
+
+
